@@ -37,7 +37,7 @@ const HeaderWrapper = styled.div`
   flex: 1;
 `;
 
- const Spantemp = styled.span`
+ const SpanTemp = styled.span`
   align-self: flex-end;
   font-size: 11px;
   font-weight: bold;
@@ -54,7 +54,7 @@ const Header = () => {
     <HeaderWrapper>
       <SpanDate>SMARCH 32, 2018</SpanDate>
       <h1>Lambda Times</h1>
-      <Spantemp>98°</Spantemp>
+      <SpanTemp>98°</SpanTemp>
     </HeaderWrapper>
   );
 };
